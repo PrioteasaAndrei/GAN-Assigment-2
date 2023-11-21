@@ -4,9 +4,11 @@
 VAE NOT AE but works https://www.youtube.com/watch?v=VELQT1-hILo&t=778s
 
 
-## Task 1.4 and 1.5 can be done without any modification to the existing code
-
-## TODO: Task 1.3 should be done again
-
 ## some rewriting regarding the data generation function and code structure
 
+## Task 1.3 
+
+- get result of training set after encoder (1d vector of size training set)
+- fit a GMM to this vector
+- generate new samples with the trained GMM
+- feed these samples through the decoder
